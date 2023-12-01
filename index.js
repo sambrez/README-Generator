@@ -45,16 +45,8 @@ const questions = [
         message: 'Choose a license for this project.',
         choices: [
             'Apache License 2.0',
-            'GNU General Public License v3.0',
             'MIT License',
-            'BSD 2-Clause "Simplified" License',
-            'BSD 3-clause "New" or "Revised" License',
-            'Boot Software License 1.0',
-            'Creative Commons Zero v1.0 Universal',
             'Eclipse Public License 2.0',
-            'GNU Affero General Public License v3.0',
-            'GNU General Public License v2.0',
-            'GNU Lesser General Public License v2.1',
             'Mozilla Public License 2.0',
             'The Unlicense'
         ],
@@ -86,8 +78,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
         .prompt(questions)
-        .then(response => {
-            console.log(response);
+        .then(data => {
+            console.log(data);
         })
         .catch((error) => {
             if (error) {
@@ -95,7 +87,8 @@ function init() {
             }
         });
 
-    writeToFile();
+    // const fileData = generateMarkdown(data);
+    // writeToFile(README.md, fileData);
 };
 
 // Function call to initialize app
