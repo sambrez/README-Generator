@@ -22,27 +22,27 @@ function generateMarkdown(data) {
   *[Questions](#Questions)
 
   ## Description
-  ${description}
+  ${data.description}
 
   ##Installation
-  ${installation}
+  ${data.installation}
 
   ## Usage
-  ${usage}
+  ${data.usage}
 
   ## Contribution Guidelines
-  ${contributions}
+  ${data.contributions}
 
   ## Tests
-  ${tests}
+  ${data.tests}
 
   // ## Licensing
   // ${license}
 
   ## Questions
-  Please reach out with any questions regarding use or contributions related to this project.
-  * GitHub: ${username}
-  * email: ${email0}
+  Please reach out with any questions regarding use and/or contributions related to this project.
+  * GitHub: ${data.username}
+  * email: ${data.email}
   `;
 }
 
