@@ -88,7 +88,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ### Licensing
-  ${renderLicenseSection(data.license)}
+  ${renderLicenseSection(data.license[0])}
 
   ### Questions
   Please reach out with any questions regarding use and/or contributions related to this project.

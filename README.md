@@ -1,4 +1,4 @@
-# Test Title
+# Title
 
   ## Table of Contents:
   [Description](#Description)
@@ -16,22 +16,22 @@
   [Questions](#Questions)
 
   ### Description
-  This is the description.
+  this is the description
 
   ### Installation
-  These are the installation instructions.
+  these are the instructions
 
   ### Usage
   This is the intended use.
 
   ### Contribution Guidelines
-  There are no contribution guidelines.
+  There are no guidelines.
 
   ### Tests
-  There were no tests written for this project.
+  There are no tests
 
   ### Licensing
-  
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ### Questions
   Please reach out with any questions regarding use and/or contributions related to this project.

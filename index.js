@@ -88,8 +88,6 @@ function init() {
                 return console.log(error);
             }
         });
-    // const fileData = generateMarkdown(data);
-    // writeToFile(README.md, Filedata);
 };
 
 // Function call to initialize app
