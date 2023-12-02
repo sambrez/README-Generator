@@ -32,12 +32,12 @@ const questions = [
     {
         type: 'input',
         name: 'contributions',
-        message: 'Provide any guidelines or instructions necessary for others to contribute to this project.',
+        message: 'Provide any guidelines necessary for others to follow if contributing to this project.',
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'Describe all tests written for this project.'
+        message: 'Provide any instructions for running tests that were written for this project.'
     },
     {
         type: 'checkbox',

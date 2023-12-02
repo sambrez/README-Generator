@@ -64,7 +64,7 @@ function generateMarkdown(data) {
 
   [Usage](#Usage)
 
-  [Contribution Guidelines](#Contributions)
+  [Contributing](#Contributing)
 
   [Tests](#Tests)
 
@@ -81,7 +81,7 @@ function generateMarkdown(data) {
   ### Usage
   ${data.usage}
 
-  ### Contribution Guidelines
+  ### Contributing
   ${data.contributions}
 
   ### Tests

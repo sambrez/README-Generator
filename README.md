@@ -7,7 +7,7 @@
 
   [Usage](#Usage)
 
-  [Contribution Guidelines](#Contributions)
+  [Contributing](#Contributing)
 
   [Tests](#Tests)
 
@@ -16,19 +16,19 @@
   [Questions](#Questions)
 
   ### Description
-  this is the description
+  This is the description
 
   ### Installation
-  these are the instructions
+  These are the instructions
 
   ### Usage
-  This is the intended use.
+  This is the intended use
 
-  ### Contribution Guidelines
-  There are no guidelines.
+  ### Contributing
+  there are no guidelines
 
   ### Tests
-  There are no tests
+  there are no tests
 
   ### Licensing
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -36,7 +36,7 @@
   ### Questions
   Please reach out with any questions regarding use and/or contributions related to this project.
 
-  GitHub: https://github.com/sambrez
+  GitHub: https://github.com/smabrez
 
   email: sbreslin@comcast.net
   
