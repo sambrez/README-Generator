@@ -31,7 +31,7 @@
   There were no tests written for this project.
 
   ### Licensing
-  Apache License 2.0
+  
 
   ### Questions
   Please reach out with any questions regarding use and/or contributions related to this project.
