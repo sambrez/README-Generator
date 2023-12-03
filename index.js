@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// Variables established for the required packages
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
+// Array of questions for prompts
 const questions = [
     {
         type: 'input',
@@ -50,6 +50,14 @@ const questions = [
             'Mozilla Public License 2.0',
             'The Unlicense'
         ],
+        validate: function(license) {
+            if (license.length <= 1) {
+                return true;
+            } else {
+                return 'Error: The maximum number of licenses that can be selected is one.';
+                
+            }
+        }
     },
     {
         type: 'input',
@@ -63,7 +71,7 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
+// Function that writes the README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, error => {
         if (error) {
@@ -74,7 +82,10 @@ function writeToFile(fileName, data) {
     });
 }
 
-// TODO: Create a function to initialize app
+// Function that initializes the app
+//          -prompts user for inputs
+//          -logs user's reponses and supplies responses to the generateMarkdown.js file
+//          - supplies arguments to the function that writes the README.md
 function init() {
     inquirer
         .prompt(questions)
@@ -90,5 +101,5 @@ function init() {
         });
 };
 
-// Function call to initialize app
+// Function call
 init();

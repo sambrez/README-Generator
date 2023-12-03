@@ -1,4 +1,4 @@
-# Title
+# [Project Title]
 
   ## Table of Contents:
   [Description](#Description)
@@ -16,19 +16,19 @@
   [Questions](#Questions)
 
   ### Description
-  This is the description
+  [Project Description]
 
   ### Installation
-  These are the instructions
+  [Installation Instructions]
 
   ### Usage
-  This is the intended use
+  [Intended Use]
 
   ### Contributing
-  there are no guidelines
+  
 
   ### Tests
-  there are no tests
+  
 
   ### Licensing
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -36,7 +36,7 @@
   ### Questions
   Please reach out with any questions regarding use and/or contributions related to this project.
 
-  GitHub: https://github.com/smabrez
+  GitHub: https://github.com/sambrez
 
   email: sbreslin@comcast.net
   
