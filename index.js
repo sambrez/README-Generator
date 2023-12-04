@@ -90,7 +90,6 @@ function init() {
     inquirer
         .prompt(questions)
         .then(data => {
-            console.log(data);
             const fileData = generateMarkdown(data);
             writeToFile('README.md', fileData);
         })

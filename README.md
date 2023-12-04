@@ -1,4 +1,4 @@
-# [Project Title]
+# Project Title
 
   ## Table of Contents:
   [Description](#Description)
@@ -16,22 +16,22 @@
   [Questions](#Questions)
 
   ### Description
-  [Project Description]
+  This is the description
 
   ### Installation
-  [Installation Instructions]
+  These are the installation instructions
 
   ### Usage
-  [Intended Use]
+  This is the intended use
 
   ### Contributing
-  
+  There are no guideline
 
   ### Tests
-  
+  There are no tests
 
   ### Licensing
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
 
   ### Questions
   Please reach out with any questions regarding use and/or contributions related to this project.
