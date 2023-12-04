@@ -9,7 +9,7 @@
   N/A
 
   ### Usage
-  ![alt text = "video of application"](https://drive.google.com/file/d/1N3YiWf467fZDc7Fy1_xSoJl9oPiH9zKk/view?usp=sharing)
+  https://drive.google.com/file/d/1N3YiWf467fZDc7Fy1_xSoJl9oPiH9zKk/view?usp=sharing
 
   ### Credits
   For this project I greatly utilized the documentation from inquirer. Specifically, I heavily referenced the documentation regarding the validate input property and choices input property when creating the prompt for licensing. The validate property I used to limit the user to selected a maximum of a singular license when answering the prompts. 
